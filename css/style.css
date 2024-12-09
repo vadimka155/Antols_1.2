@@ -1,0 +1,91 @@
+
+/*==============================ALL====================*/
+
+:root {
+
+
+    --backgroud-color: #1E252B;
+    --blur: blur(25px);
+    --text-main-color: rgba(255, 255, 255, 0.55);
+    --white-color: rgba(255, 255, 255, 0.9);
+    --accent-color: rgba(255, 110, 48, 1);
+    --dark-orange-for-cards: rgba(255, 165, 55, 0.55);
+    --dark-orange-for-cards-hover: rgba(255, 165, 55, 1);
+
+    --second-font: "Roboto", sans-serif;
+
+
+    --Regular: 400;
+    --Medium: 500;
+    --SemiBold: 600;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--backgroud-color);
+    font-family : "Poppins", sans-serif;
+
+    
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1245px;
+
+    padding: 15px;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+
+/*==============================HEADER====================*/
+
+.logo{
+
+    color: var(--white-color);
+    font-family: var(--main-font);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: var(--SemiBold);
+    line-height: normal;
+
+
+}
+
+
+.nav-bar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/*
+.logotype-wrap {
+    gap: 22px;
+}
+
+*/
+
