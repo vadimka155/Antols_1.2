@@ -11,6 +11,9 @@
     --accent-color: rgba(255, 110, 48, 1);
     --dark-orange-for-cards: rgba(255, 165, 55, 0.55);
     --dark-orange-for-cards-hover: rgba(255, 165, 55, 1);
+    --gold:#FFA537 ;
+
+
 
     --second-font: "Roboto", sans-serif;
 
@@ -20,7 +23,7 @@
 li {
     list-style-type: none;
 
-  }
+  }          
 
 
 p,
@@ -293,4 +296,87 @@ button:hover {
     font-style: normal;
     font-weight: 500;
     line-height: 30px;
+}
+
+.cards {
+    margin-top: 90px;
+}
+
+
+
+.card-list {
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 0 auto;
+    padding: 0 ;
+    gap: 11px;
+}
+
+
+
+
+
+.card-list-item {
+    width: 392px;
+    padding: 33px;
+    height: 294px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: var(--backgroud-color);
+    border: 1.5px solid rgba(255, 255, 255, 0.10);
+    cursor: pointer;
+}
+
+
+
+.card-list-item:hover {
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(40, 48, 54, 0.60);
+    background-image: radial-gradient(ellipse at top right, rgba(254, 135, 84, 0.307), rgba(255, 255, 255, 0) 25%);
+    backdrop-filter: blur(100px);
+    transform: translateY(-20px);
+    transition: 0.3s;
+}
+
+
+.cards-figma:hover{
+    color: var(--white-color);
+    font-size: 24px;
+    font-style: normal;
+    font-weight:500;
+    line-height: normal;
+}
+
+
+
+.cards-free:hover{
+   color: var(--gold);
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: var(--Regular);
+    line-height: normal;
+}
+
+
+
+.cards-text:hover{
+    color: var(--white-color);;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.card-list-item:hover .card-images-wrapper p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 106px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--accent-color);
+    transition: 0.5s;
 }
