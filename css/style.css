@@ -14,11 +14,14 @@
 
     --second-font: "Roboto", sans-serif;
 
-
-    --Regular: 400;
-    --Medium: 500;
-    --SemiBold: 600;
 }
+
+
+li {
+    list-style-type: none;
+
+  }
+
 
 p,
 h1,
@@ -68,7 +71,7 @@ a {
     font-family: var(--main-font);
     font-size: 22px;
     font-style: normal;
-    font-weight: var(--SemiBold);
+    font-weight: 600;
     line-height: normal;
 
 
@@ -82,10 +85,212 @@ a {
 
 
 
-/*
+
 .logotype-wrap {
     gap: 22px;
 }
 
-*/
 
+
+.logo{
+
+    color: var(--white-color);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.header-list {
+    gap: 45px;
+}
+
+
+
+.header-list-item {
+    color: var(--text-main-color); 
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.header-list-item:hover {
+    color: var(--white-color);
+}
+
+
+button {
+    width: 118px;
+    height: 48px;
+    color: var(--text-main-color);
+    font-size: 16px;
+    font-style: normal;
+   font-weight: 600;
+    line-height: normal;
+    border: none;
+    border-radius: 8px;
+    background: var(--backgroud-color);
+    text-align: center;
+}
+
+button:hover {
+    border-radius: 8px;
+    background: var(--accent-color);
+    color: var(--white-color);
+    text-align: center;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+
+
+
+
+.header-list {
+    gap: 45px;
+}
+
+
+
+/*====================================MAIN=(1section)=======================*/
+
+
+.hero {
+    margin-top: 115px;
+}
+
+
+.background-section-hero {
+    background-image: url(/img/img-section-hero.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+
+
+.wrapper-section-hero {
+    justify-content: space-between;
+    gap: 140px;
+}
+
+
+.text-block-section-hero {
+    width: 600px;
+}
+
+
+.tittle{
+    color: var(--white-color);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.orange-point {
+    color: var(--accent-color);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+
+.hero-heading{
+    margin-top: 30px;
+    color: var(--text-main-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.input-wrapper {
+    margin-top: 60px;
+    height: 65px;
+    padding: 18px;
+    border-radius: 15px;
+    border: 1.5px solid rgba(255, 255, 255, 0.10);
+    background: var(--backgroud-color);
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+}
+
+
+.hero-image{
+    width: 24.08px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+
+.hero-input{
+    color: var(--text-main-color);
+    padding: 15px;
+    width: 250px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    background: var(--backgroud-color);
+}
+
+.input-wrapper input:focus {
+    outline: none;/*забираэ обводку в пошуковому полі при нажиммані там */
+}
+
+.search-button {
+    border-radius: 8px;
+    background: var(--accent-color);
+    color: var(--white-color);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+
+.hero-social-image{
+    margin-top: 120px;
+    gap: 30px;
+}
+
+
+
+/*========================================SECTION 2(popular-tools)======================================================*/
+
+
+
+
+.popular-tools{margin-top: 210px;}
+
+
+
+
+.popular-tools-hrading{
+    color: var(--white-color);
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+
+.popular-tools-heading{
+    color: var(--text-main-color);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
