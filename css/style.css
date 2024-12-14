@@ -1,5 +1,5 @@
 
-/*==============================ALL====================*/
+/*====================================================ALL====================*/
 
 :root {
 
@@ -66,16 +66,16 @@ a {
 }
 
 
-/*==============================HEADER====================*/
+/*===================================================HEADER=================================*/
 
 .logo{
 
     color: var(--white-color);
     font-family: var(--main-font);
     font-size: 22px;
-    font-style: normal;
+  
     font-weight: 600;
-    line-height: normal;
+    line-height: 1,5;
 
 
 }
@@ -95,16 +95,6 @@ a {
 
 
 
-.logo{
-
-    color: var(--white-color);
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-
-}
-
 .header-list {
     gap: 45px;
 }
@@ -114,9 +104,9 @@ a {
 .header-list-item {
     color: var(--text-main-color); 
     font-size: 16px;
-    font-style: normal;
+    
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.5;
 }
 
 
@@ -130,9 +120,9 @@ button {
     height: 48px;
     color: var(--text-main-color);
     font-size: 16px;
-    font-style: normal;
+   
    font-weight: 600;
-    line-height: normal;
+    line-height: 1.5;
     border: none;
     border-radius: 8px;
     background: var(--backgroud-color);
@@ -158,7 +148,7 @@ button:hover {
 
 
 
-/*====================================MAIN=(1section)=======================*/
+/*=====================================================MAIN=(1section)===============================*/
 
 
 .hero {
@@ -189,17 +179,15 @@ button:hover {
 .tittle{
     color: var(--white-color);
     font-size: 50px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 140%;
+    line-height: 1.4;
 }
 
 .orange-point {
     color: var(--accent-color);
     font-size: 50px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 140%;
+    line-height: 1.4;
 }
 
 
@@ -207,9 +195,8 @@ button:hover {
     margin-top: 30px;
     color: var(--text-main-color);
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 1.6;
 }
 
 
@@ -238,9 +225,8 @@ button:hover {
     padding: 15px;
     width: 250px;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 1.5;
     border: none;
     background: var(--backgroud-color);
 }
@@ -255,9 +241,8 @@ button:hover {
     color: var(--white-color);
     text-align: center;
     font-size: 16px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    line-height: 1.5;
     cursor: pointer;
 }
 
@@ -269,7 +254,7 @@ button:hover {
 
 
 
-/*========================================SECTION 2(popular-tools)======================================================*/
+/*================================================SECTION 2(popular-tools)======================================================*/
 
 
 
@@ -279,24 +264,29 @@ button:hover {
 
 
 
-.popular-tools-hrading{
+
+
+
+.popular-tools h2 {
     color: var(--white-color);
     text-align: center;
     font-size: 48px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 130%;
+    line-height: 1.3;
+
 }
 
 
-.popular-tools-heading{
+
+
+.popular-tools h3 {
     color: var(--text-main-color);
     text-align: center;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
+    line-height: 1.6;
 }
+
+
 
 .cards {
     margin-top: 90px;
@@ -340,34 +330,34 @@ button:hover {
 }
 
 
-.cards-figma:hover{
+
+.card-list-item:hover h3 {
     color: var(--white-color);
     font-size: 24px;
-    font-style: normal;
-    font-weight:500;
-    line-height: normal;
+    font-weight: 500;
+    line-height: 1.5;
 }
 
 
 
-.cards-free:hover{
-   color: var(--gold);
-    font-family: var(--main-font);
+.card-list-item:hover h4 {
+    color: var(--gold);
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: n1.5;
 }
 
 
 
-.cards-text:hover{
-    color: var(--white-color);;
+.card-list-item:hover p {
+    color: var(--white-color);
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 1.8;
 }
+
+
+
 
 .card-list-item:hover .card-images-wrapper p {
     display: flex;
@@ -380,3 +370,15 @@ button:hover {
     background: var(--accent-color);
     transition: 0.5s;
 }
+
+
+
+
+
+
+.card-text-about-apps img {
+    margin-right: 30px;
+}
+
+
+
