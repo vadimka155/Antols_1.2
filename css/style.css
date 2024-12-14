@@ -355,7 +355,7 @@ button:hover {
     font-family: var(--main-font);
     font-size: 18px;
     font-style: normal;
-    font-weight: var(--Regular);
+    font-weight: 400;
     line-height: normal;
 }
 
