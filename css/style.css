@@ -332,7 +332,7 @@ button:hover {
 
 
 .card-list-item:hover h3 {
-    color: var(--white-color);
+color: rgba(255, 255, 255, 90%);
     font-size: 24px;
     font-weight: 500;
     line-height: 1.5;
@@ -341,16 +341,16 @@ button:hover {
 
 
 .card-list-item:hover h4 {
-    color: var(--gold);
+    color:  rgba(255, 165, 55, 100&);
     font-size: 18px;
     font-weight: 400;
-    line-height: n1.5;
+    line-height: 1.5;
 }
 
 
 
 .card-list-item:hover p {
-    color: var(--white-color);
+    color: rgba(255, 255, 255, 78%);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.8;
@@ -382,3 +382,49 @@ button:hover {
 
 
 
+.card-text-about-apps-wrapper {
+    flex-direction: column;
+}
+
+
+
+
+
+.card-text-about-apps-wrapper h3 {
+    color: rgba(255,255,255,78%);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 0 ;
+    margin: 0 auto;
+}
+
+
+
+
+.card-text-about-apps-wrapper h4 {
+    color: var(--dark-orange-for-cards);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.card-list-item p {
+    color: rgba(255, 255, 255, 55%);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+
+}
+
+
+
+.card-images-list {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    gap: 25px;
+}
