@@ -430,3 +430,127 @@ color: rgba(255, 255, 255, 90%);
     align-items: center;
     gap: 25px;
 }
+
+
+
+
+.like {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+
+.folder {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+
+
+.card-images-wrapper {
+    justify-content: space-between;
+}
+
+
+
+.card-images-wrapper p {
+    color: rgba(255, 255, 255, 55%);
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.button-visit{
+    color: rgba(255, 255, 255, 55%);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.button-wrapp {
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+
+.button {
+    margin: 0 auto;
+    min-width: 120px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 10%);
+    background: #1E252B;
+    color: var(--accent-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
+    padding: 20px 50px;
+}
+
+.button:hover {
+    background: var(--accent-color);
+    color: var(--white-color);
+    transition: 0.3s;
+}
+
+.button:not(:hover) {
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+/*================================================SECTION 3(net-works)======================================================*/
+
+
+
+.net-works {
+    margin-top: 200px;
+}
+
+
+.net-works-section-wrapper {
+    width: 1200px;
+    height: 253px;
+    margin: 0;
+    padding: 0;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 2px solid rgba(255, 255, 255, 5%);
+    background: rgba(44, 53, 61, 20%);
+    backdrop-filter: blur(25px);
+    background-image: radial-gradient(circle at top left, rgba(255, 94, 0, 0.159), rgba(44, 53, 61, 0.20) 10%);
+}
+
+
+
+.net-works-section-wrapper h2 {
+    color: rgba(255, 255, 255, 80%);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+
+.section-net-works-list {
+    margin-top: 55px;
+    gap: 107px;
+}
+
+
+
+
+/*======================================SECTION 4(Newcomer-Tools)============================================*/
+
+
+
