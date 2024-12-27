@@ -550,36 +550,36 @@ color: rgba(255, 255, 255, 90%);
 
 
 
-/*======================================SECTION 4(Newcomer-Tools)============================================*/
+/*======================================SECTION 4(newcomer-Tools)============================================*/
 
 
 
-.Newcomer-Tools {
+.newcomer-Tools {
     margin-top: 220px;
 }
 
 
 
-.Newcomer-tools-section-card-block .card-list .card-list-item {
+.newcomer-tools-section-card-block .card-list .card-list-item {
     width: 288px;
     height: 284px;
     flex-shrink: 0;
 }
 
 
-.Newcomer-tools-section-text-block {
+.newcomer-tools-section-text-block {
     width: 1100px;
 }
 
 
-.Newcomer-tools-section-card-block .card-list {
+.newcomer-tools-section-card-block .card-list {
     margin: 0;
     padding: 0;
 }
 
 
 
-.Newcomer-tools-section-text-block h2 {
+.newcomer-tools-section-text-block h2 {
     color: rgba(255, 255, 255, 90%);
     font-size: 48px;
     font-weight: 500;
@@ -587,7 +587,7 @@ color: rgba(255, 255, 255, 90%);
 }
 
 
-.Newcomer-tools-section-text-block {
+.newcomer-tools-section-text-block {
     color: rgba(255, 255, 255, 55%);
     font-size: 18px;
     font-weight: 500;
@@ -600,7 +600,7 @@ color: rgba(255, 255, 255, 90%);
 }
 
 
-.Newcomer-tools-section-card-block {
+.newcomer-tools-section-card-block {
     margin-right: 20px;
     padding: 0;
     margin: 0;
@@ -609,14 +609,14 @@ color: rgba(255, 255, 255, 90%);
 
 
 
-.Newcomer-tools-section-text-block p {
+.newcomer-tools-section-text-block p {
     width: 427px;
 }
 
 
 
 
-.Newcomer-tools-section-card-block p {
+.newcomer-tools-section-card-block p {
     color: rgba(255, 255, 255, 55%);
     font-size: 18px;
     font-weight: 500;
@@ -650,6 +650,177 @@ color: rgba(255, 255, 255, 90%);
 }
 
 
+/*======================================SECTION 4(section-4 Ronald Richards)============================================*/
+
 .section-4 {
     margin-top: 200px;
 }
+
+
+.wrapper-section-4 {
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.foto-section-4 {
+    background: url(/img/ronald.png) no-repeat;
+    height: 492px;
+    width: 415px;
+}
+
+
+.name-frame {
+    margin-top: 372px;
+    margin-left: 130px;
+    padding: 10px 22px;
+    width: 265px;
+    height: 91px;
+    border-radius: 8px;
+    backdrop-filter: blur(50px);
+    background: rgba(40, 48, 54, 20%);
+}
+
+
+.name-frame h3 {
+    color: rgba(255, 253, 253, 78%);
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 1.5%;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.name-frame p {
+    color: rgba(255, 253, 253, 55%);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.text-section-4 {
+    width: 515px;
+    height: 336px;
+    background: url(/img/“.png) no-repeat;
+    background-position: left top;
+}
+
+
+
+.wrapper-text-section-4 p {
+    color: rgba(255, 255, 255, 78%);
+    font-family: var(--second-font);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2.1;
+    letter-spacing: 1.5%;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 390px;
+    display: flex;
+    margin-top: 100px;
+    margin-right: 20px;
+}
+
+
+
+/*======================================SECTION 4(BaA)============================================*/
+
+
+.baa{
+    margin-top: 250px;
+}
+
+.baa h2 {
+    color: rgba(255, 255, 255, 90%);
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.baa p {
+    color: rgba(255, 255, 255, 55%);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.foot-btn {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.email{
+
+
+    height: 65px;
+    padding: 18px;
+    border: 1.5px solid rgba(255, 255, 255, 10%);
+    background: var(--backgroud-color);
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+
+
+}
+
+
+/*======================================SECTION footer(footer)============================================*/
+
+
+
+
+
+footer {
+    margin-top: 250px;
+}
+
+footer {
+    border-top: 0.5px solid rgba(255, 255, 255, 15%);
+}
+
+.footer-list {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-item {
+    width: 200px;
+}
+
+
+
+
+.logo-footer {
+    color: rgba(255, 255, 255, 90%);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
