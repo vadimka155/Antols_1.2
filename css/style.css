@@ -202,6 +202,10 @@ button:hover {
 }
 
 
+
+
+
+
 .input-wrapper {
     margin-top: 60px;
     height: 65px;
@@ -238,6 +242,9 @@ button:hover {
 }
 
 .search-button {
+    width: 130px;
+    height: 48px;
+    padding: 12px 40px;
     border-radius: 8px;
     background: var(--accent-color);
     color: var(--white-color);
@@ -292,6 +299,7 @@ button:hover {
 
 .cards {
     margin-top: 90px;
+  
 }
 
 
@@ -621,8 +629,12 @@ color: rgba(255, 255, 255, 90%);
     font-size: 18px;
     font-weight: 500;
     line-height: 1,7;
+
 }
 
+.wow{
+    padding-top: 30px;
+}
 
 
 .button-newcomer-tools-section {
@@ -759,6 +771,9 @@ color: rgba(255, 255, 255, 90%);
     margin-bottom: 100px;
 }
 
+
+
+
 .foot-btn {
     display: flex;
     justify-content: center;
@@ -766,19 +781,81 @@ color: rgba(255, 255, 255, 90%);
 
 }
 
-.email{
 
 
+
+
+
+
+
+
+
+.input-join {
+    margin-top: 60px;
     height: 65px;
     padding: 18px;
-    border: 1.5px solid rgba(255, 255, 255, 10%);
+    border-radius: 15px;
+    border: 1.5px solid rgba(255, 255, 255, 0.10);
     background: var(--backgroud-color);
     justify-content: space-between;
     align-items: center;
     width: 450px;
-
-
 }
+
+
+.input-join input:focus {
+    outline: none;/*забираэ обводку в пошуковому полі при нажиммані там */
+}
+
+
+
+
+
+.baa-input{
+    color: var(--text-main-color);
+    padding: 15px;
+    width: 250px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    border: none;
+    background: var(--backgroud-color);
+}
+
+
+
+
+
+
+
+
+.join-button {
+    border-radius: 8px;
+    background: var(--accent-color);
+    color: var(--white-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+
+
+.join-button:hover {
+    color: var(--accent-color);
+    background: var(--white-color);
+    transition: 0.3s;
+}
+
+
+
+.join-button:not(:hover) {
+    transition: 0.3s;
+}
+
+
+
 
 
 /*======================================SECTION footer(footer)============================================*/
@@ -805,6 +882,20 @@ footer {
 }
 
 
+.antools-footer{
+border-radius: 8px;
+background: var(--accent-color);
+color: var(--white-color);
+text-align: center;
+font-size: 16px;
+font-weight: 600;
+line-height: 1.5;
+padding: 10px 10px;
+margin-right: 12px;
+margin-bottom: 25px;
+cursor: pointer;
+}
+
 
 
 .logo-footer {
@@ -814,7 +905,40 @@ footer {
     line-height: 1.5;
     letter-spacing: 0%;
     text-align: left;
+    margin-bottom: 20px;
 }
+
+
+
+
+
+
+#footer-p-1 {
+    color: rgba(255, 255, 255, 90%);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 21px;
+}
+
+
+#footer-p-2 {
+    color: rgba(255, 255, 255, 55%);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
 
 
 
