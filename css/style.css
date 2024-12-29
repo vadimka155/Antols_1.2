@@ -146,7 +146,7 @@ button:hover {
 .language{
 
     border-radius: 8px;
-    background: var(--accent-color);
+margin-left: 10px;
     color: var(--white-color);
     text-align: center;
     font-size: 16px;
@@ -156,6 +156,7 @@ button:hover {
     margin-right: 12px;
     margin-bottom: 25px;
     cursor: pointer;
+    color: rgba(255, 255, 255, 50%);;
 
 
 
