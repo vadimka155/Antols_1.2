@@ -985,8 +985,132 @@ cursor: pointer;
 
 
 
+/*======================================SECTION рег(footer)============================================*/
 
 
 
 
+.reg-menu-body {
+    background-size: 100%;
 
+    background-color: var(--backgroud-color);
+}
+
+.reg-menu-main {
+    margin: 0;
+    padding: 0;
+}
+
+.reg-menu {
+    margin: 25px auto;
+    background: grey;
+    width: 555px;
+    border-radius: 10px;
+    height: 444px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reg-menu h2 {
+    margin-top: 20px;
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-family: var(--second-font);
+    font-weight: var(--SemiBold);
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+}
+
+.inputs-reg-menu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.inputs-reg-menu input {
+    padding: 5px;
+    height: 30px;
+    border-radius: 3px;
+    width: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    outline: none;
+    border: none;
+    caret-color: white;
+}
+
+.inputs-reg-menu input::placeholder {
+    color: white;
+    font-family: var(--main-font);
+    letter-spacing: 2px;
+}
+
+.inputs-reg-menu input:focus {
+    border: none;
+    outline: none;
+}
+
+.reg-menu-sign-up-btn {
+    margin-top: 50px;
+    width: 118px;
+    height: 48px;
+    flex-shrink: 0;
+    color: var(--text-main-color);
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: var(--SemiBold);
+    line-height: normal;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background: var(--backgroud-color);
+    text-align: center;
+}
+
+.reg-menu-sign-up-btn:hover {
+    border-radius: 18px;
+    background: var(--white-color);
+    color: green;
+    text-align: center;
+    transition: 1s;
+    cursor: pointer;
+}
+
+button:not(:hover) {
+    transition: 0.7s;
+}
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #fc1010;
+}
+
+.go-to-top {
+    font-size: 20px;
+    background-color: #4a4a4a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
